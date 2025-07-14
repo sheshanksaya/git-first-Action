@@ -8,5 +8,13 @@ jobs:
         run: echo "hello my dear friend!"
       - name: print goodbye
         run: echo "nice to meet you"
+      - name: twice at a time
+        run: |
+             echo "first output"
+             echo "second output"
+             
+
+
+
       
       
