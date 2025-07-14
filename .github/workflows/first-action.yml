@@ -2,11 +2,11 @@ name: First workflow
 on: workflow_dispatch
 jobs:
   first-job: 
-    runs-on: ubuntu-latest
-    Steps:
-     -name: print greeting
-      run: echo "hello my dear friend!"
-      -name: print goodbye
-      run: echo "nice to meet you"
+     runs-on: ubuntu-latest
+     steps:
+      - name: print greeting
+        run: echo"hello my dear friend!"
+      - name: print goodbye
+        run: echo "nice to meet you"
       
       
